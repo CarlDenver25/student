@@ -24,7 +24,7 @@ setupSwagger(app);
 // Routes
 
 // Customer routes
-app.use("/api/customers", customerRoutes);
+app.use("/api/v1/customers", customerRoutes);
 
 // Viewer routes (all routes in Viewers.js)
 app.use("/api", viewerRoutes);
