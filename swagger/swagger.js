@@ -9,9 +9,6 @@ const options = {
       version: "1.0.0",
       description: "API documentation for Travel Booking project",
     },
-    servers: [
-      { url: "http://localhost:3000" }
-    ],
   },
   // Make sure this path points to your routes
   apis: ["./routes/*.js"],
